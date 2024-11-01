@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "usa_robotics_2024.sln"
+    "dotnet.defaultSolution": "Robotics-Club-Unity-Project-Files.sln"
 }
