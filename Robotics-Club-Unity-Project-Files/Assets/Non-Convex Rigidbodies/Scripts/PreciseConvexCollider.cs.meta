@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 60e3a3cd8554bfc48bbd84d80fb4edfe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ConvexObjectMaterial: {fileID: 2100000, guid: e303d29daf09d534ab1b24ec26d2a2de, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

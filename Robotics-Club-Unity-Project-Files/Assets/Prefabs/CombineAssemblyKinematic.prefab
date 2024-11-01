@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 2103437362952702968}
   - component: {fileID: 8907359435153645479}
   m_Layer: 0
-  m_Name: CombineAssembly
+  m_Name: CombineAssemblyKinematic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

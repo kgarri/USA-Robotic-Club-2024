@@ -1,36 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
-//using System.Numerics;
 using UnityEngine;
 
-
-[RequireComponent( typeof(Rigidbody) )]
-public class CombineAsembly : MonoBehaviour
+public class backup_CombineAsembly : MonoBehaviour
 {
-    [SerializeField] UnityEngine.Vector3 rotateSpeed;
+    [SerializeField] float rotateSpeed = 1;
     [SerializeField] float moveSpeed = 0.1f;
-    Rigidbody rigidbody;
 
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
         
-        rotateSpeed = new UnityEngine.Vector3(0, 0, 2);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Quaternion newRotation = Quaternion.Euler(rotateSpeed * Time.fixedDeltaTime);
+        int rotation = 0;
         Vector3 pos = transform.position;
-
         //Change transform.position based on the axes
         pos.x += moveSpeed * Time.deltaTime;
         transform.position = pos;
 
         //Rotate the ship to make it feel more dynamic
-        rigidbody.MoveRotation(rigidbody.rotation * newRotation);
-        //transform.Rotate(0, 0, rotateSpeed);
+       transform.Rotate(0, 0, rotateSpeed);
     }
 }

@@ -1,0 +1,14 @@
+Thanks for purchasing the Non-Convex Mesh Collider Asset
+
+The asset contains all necessary scripts which are ready to use in any personal or commercial project. However, you can't redistribute/resale/modify and resale/reskin and resale any asset in the project.
+
+The Precise Covex Collider component must be added to an object with a Mesh Filter already added to it. 
+ 
+That's everything you need to know to use the asset.
+
+[Note - The collider currently throws up errors when it is generated, but the errors are an issue with the quickhull algorithm used by Unity to make a convex mesh collider. Optimisations are in the works and should be done soon.]
+
+This asset currently depends on the EditorCools asset which is included.
+
+Best of luck,
+A.C.E.Y.T.X
